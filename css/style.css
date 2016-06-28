@@ -1,0 +1,154 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*Normal Styles*/
+body, html{
+	height:100%;
+  width:100%;
+  margin:auto;
+  font-family: Open Sans, Helvetica, sans-serif;
+  letter-spacing: .02em;
+}
+
+.container{
+	display:flex;
+	height:100%;
+  justify-content:flex-end;
+  z-index:-10;
+}
+
+/*Post Styles*/
+
+.posts{
+	width:70%;
+	height:100%;
+  margin-left:10%;
+}
+
+section{
+  width: 500px;
+  height: 100%;
+}
+
+.postblock{
+  padding-top:15%;
+  z-index:100;
+}
+
+a{
+  color: #2F4F4F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.work li{
+  margin:.75em;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#about p{
+  text-indent: 30px;
+}
+
+h4{
+  color:#2d1e4b;
+}
+
+/*Navigation Styles*/
+
+#nav_container{
+  display:flex;
+  width:100%;
+  position:fixed;
+}
+
+#nav{
+  width:90%;
+  position:fixed;
+}
+
+#nav ul{
+  display:block;
+}
+
+#nav li{
+  list-style:none;
+  line-height:1.4em;
+  margin:1.5px;
+}
+
+#nav li a{
+  text-decoration:none;
+  color: #666666;
+  font-weight: normal;
+}
+
+#nav-1{
+  margin-bottom:20px;
+}
+
+#nav-1 a p{
+ color: #2d1e4b;
+ font-size: 1.2em;
+ font-weight:bolder;
+}
+
+/*Images*/
+
+#tina{ 
+  margin-top:10px;
+  height: 550px;
+  width: 550px;
+}
+
+#books{
+  height:125px;
+  width:100px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
