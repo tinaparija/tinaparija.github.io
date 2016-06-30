@@ -128,8 +128,12 @@ h4{
  
 #play_section a{
   font-size: 14px; 
+  margin-left: 20px;
 }
 
+#musicbox{
+  padding-left: 20px;
+}
 
 /*Images*/
 
