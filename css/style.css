@@ -135,11 +135,11 @@ h4{
 
 /*Images*/
 
-#tina{ 
-  margin-top:50px;
+#marbling{ 
+  margin-top:25px;
   height: 550px;
   width: 550px;
-  border-radius: 100%;
+  border-radius: 100%; 
 }
 
 #books{
