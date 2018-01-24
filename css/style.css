@@ -81,6 +81,10 @@ a:hover{
   text-indent: 30px;
 }
 
+h3{
+  font-size: 20px;
+}
+
 h4{
   color:#2d1e4b;
 }
@@ -146,6 +150,13 @@ h4{
   height:125px;
   width:100px;
   padding-left: 20px;
+}
+
+#webstuff{
+  font-size: 18px;
+  color: #330f53;
+  text-decoration: underline;
+
 }
 
 
