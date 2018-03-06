@@ -154,7 +154,6 @@ h4{
 
 #webstuff{
   font-size: 18px;
-  color: #330f53;
   font-weight: 600;
 }
 
@@ -171,4 +170,16 @@ h4{
   margin-top: 15px; 
 }
 
+#writing_sample {
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 20px; 
+}
 
+#things_i_do{
+  margin-top: 40px;
+}
+
+ul{
+  margin-bottom: 40px; 
+}
