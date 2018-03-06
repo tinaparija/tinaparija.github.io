@@ -146,7 +146,7 @@ h4{
   border-radius: 100%; 
 }
 
-.books{
+#books {
   height:125px;
   width:100px;
   padding-left: 20px;
@@ -163,7 +163,7 @@ h4{
   padding-bottom: 5px; 
 }
 
-.clip_image{
+#clip_image {
   height:200px;
   width: 220px;
   display:inline-block;
