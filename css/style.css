@@ -157,14 +157,9 @@ h4{
   font-weight: 600;
 }
 
-#clip_description{
-  font-size: 12px; 
-  padding-bottom: 5px; 
-}
-
-#clip_image {
-  height:200px;
-  width: 220px;
+#plantae_pic {
+  height:300px;
+  width:480px;
   display:inline-block;
   margin-left: 20px; 
   margin-top: 15px; 
